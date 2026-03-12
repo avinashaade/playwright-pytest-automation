@@ -9,6 +9,8 @@ class AlertsPage:
         self.new_tab = "text=New Tab"
         self.popup_window = "#PopUp"
 
+        #PR
+
 
     def click_simple_alert(self):
         self.page.locator(self.simple_alert).click()
