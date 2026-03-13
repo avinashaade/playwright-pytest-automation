@@ -7,7 +7,7 @@ def test_file_upload(page):
 
     upload = FileUploadPage(page)
 
-    file_path = r"C:\Users\Avinash Aade\Downloads\Avinash_Aade_Harvard_Resume.pdf"
+    file_path = r"C:\Users\Avinash Aade\Desktop\Screenshot 2026-03-13 134228.png"
 
     upload.upload_single_file(file_path)
 
